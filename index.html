@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raul Rolon - Porfolio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+</head>
+
+<body>
+    <!-- -------------------------------NAVEGACION------------------------------>
+    <header>
+        <nav>
+            <a href="#INICIO">
+                <h1>Raul Valerio Rolon</h1>
+            </a>
+                <a href="#SOBREMI">Sobre Mi</a>
+                <a href="#PROYECTOS">Proyectos</a>
+                <a href="#CONTACTO">Contacto</a>
+            
+        </nav>
+    </header>
+    <!-- -------------------------------INICIO------------------------------>
+    <section id="INICIO">
+        <section id="contenedor">
+            <div id="image-box">
+                <img src="img\1706292827508.jpeg" alt="Imagen inicio">
+            </div>
+            <div id="inicio_texto">
+                <h1>¡Hola Mundo!</h1>
+                <p>Raul Valerio Rolon, Estudiante de la <span id="inicio_span">Tecnicatura Universitaria en
+                        Programacion</span> de la UTN</p>
+            </div>
+        </section>
+    </section>
+     <!-- -------------------------------SOBRE MI ------------------------------>
+    <section id="SOBREMI">
+        <section id="contenedor_SM">
+            <h1>SOBRE MI</h1>
+            <div id="texto_sobreMi">
+                <div id="image-box1">
+                    <img src="img\imagen-japon.jpeg" alt="Imagen inicio">
+                    <img src="img\imagen-trail.jpeg" alt="Imagen inicio">
+                </div>
+                <div>
+                    <p>
+                        Mi nombre es Raúl Valerio Rolón y desde el 2022 me encuentro cursando la <span id="SM_span">Tecnicatura Universitaria en Programación</span> en la UTN. Actualmente (2024), he completado más del 70% de la carrera, quedándome solamente 6 materias para obtener el título. Esta formación me ha brindado una sólida base en el campo de la tecnología y la programación.
+                    </p>
+                    <p>
+                        Además, desde el 2017 soy <span id="SM_span">Ingeniero Químico </span>y cuento con cinco años de experiencia en consultoría especializada en Mejora Continua (KAIZEN). Durante este tiempo, he aplicado mis habilidades analíticas y de resolución de problemas para optimizar procesos y sistemas productivos. Desde el 2021 estoy certificado como Asesor en Tecnologías de Gestión por el I.N.T.I, lo que me brindó la oportunidad de viajar a PARAGUAY para asesorar a empresas en sus procesos de mejora continua. Además, obtuve una beca para viajar a JAPON con el objetivo de participar en un curso especializado en KAIZEN, ampliando así mi visión y conocimientos en el ámbito internacional. Estas experiencias han enriquecido mi trayectoria profesional y me han permitido desarrollarme de manera integral.
+                    </p>
+                    <p>
+                        No todo es trabajo y estudio, soy corredor de <span id="SM_span">Trail Running</span>, he participado en numerosas carreras de trail, en desafiantes y diversos terrenos, disfrutando del contacto con la naturaleza. Esta actividad me ha enseñado disciplina, determinación y capacidad para enfrentar retos físicos y mentales.
+                    </p>
+                    <p>
+                        Estoy en constante búsqueda del mejoramiento continuo tanto en el ámbito profesional como en el personal, aprovechando mis experiencias y habilidades para enfrentar nuevos desafíos con determinación y pasión.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+     <!-- -------------------------------PROYECTOS ------------------------------>
+    <section id="PROYECTOS">
+        <h1>PROYECTOS</h1>
+        <section id="contenedor_PY">
+            <div>
+                <ul>
+                    <li>
+                        <span> Proyectos de consola con lenguajes C++</span>
+                    </li>
+                    <li>
+                        <span> Formulario en .NET Framework</span>
+                    </li>
+                    <li>
+                        <span> Proyectos en HTML y CSS</span>
+                    </li>
+                </ul>
+                <div id="imagen_PY">
+                    <div>
+                        <img src="img\sistema-prestamos.png" alt="">
+                        <a href="https://github.com/raul-valerio/UTN.ProyectoLaboratorio.II" target="_blank">REPOSITORIO
+                            GITHUB</a>
+                    </div>
+                    <div>
+                        <img src="img\proyecto-net.png" alt="">
+                        <a href="https://github.com/raul-valerio/UTN.ProgramacionIII.Formulario.NET" target="_blank">REPOSITORIO
+                            GITHUB</a>
+                    </div>
+                    <div>
+                        <img src="img\Captura de pantalla 2024-05-02 213002.png" alt="">
+                        <a href="https://github.com/raul-valerio/porfolio.rvr" target="_blank">REPOSITORIO
+                            GITHUB</a>
+                    </div>
+                </div>
+                <h3 id="conocimientos_h3">CONOCIMIENTOS</h3>
+                <div id="conocimientos_PY">
+                    <img src="img\c++.png" alt="">
+                    <img src="img\c.png" alt="">
+                    <img src="img\html.png" alt="">
+                    <img src="img\css.png" alt="">
+                    <img src="img\js.png" alt="">
+                    <img src="img\net.png" alt="">
+                    <img src="img\sql.png" alt="">  
+                </div>
+    
+            </div>
+        </section>
+    </section>
+     <!-- -------------------------------CONTACTO ------------------------------>
+    <section id="CONTACTO">
+        <section id="contenedor_CT">
+            <div >
+                <form action="https://formsubmit.co/raulvaleriorolon2024@gmail.com" method="POST">
+                    <h2>CONTACTO</h2>
+                    <div id="fila">
+                        <div id="col">
+                            <input name="name" type="text" placeholder="Nombre">
+                            <input name="phone" type="tel" placeholder="Número de teléfono">
+                            <input name="email" type="email" placeholder="Direccion de correo">
+                            <input name="subjet" type="text" placeholder="Asunto">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <button id="enviar-btn">
+                                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </section>
+    <!-- -------------------------------FOOTER ------------------------------>
+    <footer>
+        <div id="redes">
+            <a href="https://www.linkedin.com/in/raul-valerio-rolon-58943a102/" target="_blank">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                </p>
+            </a>
+            <a href="https://github.com/raul-valerio" target="_blank">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                </p>
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
