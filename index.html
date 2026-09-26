@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raul Rolon - Porfolio</title>
+    <title>Raul Rolon - Portfolio</title>
+    <meta name="description" content="Portfolio de Raúl Valerio Rolón: Técnico Universitario en Programación (UTN) e Ingeniero Químico, Asesor certificado en Tecnologías de Gestión del INTI, especializado en Mejora Continua (Kaizen).">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -17,35 +17,41 @@
     <header>
         <nav>
             <a href="#INICIO">
-                <h1>Raul Valerio Rolon</h1>
+                <span class="mono-badge" aria-hidden="true">RR</span>
+                <p class="nav-brand">Raul Valerio Rolon</p>
             </a>
-                <a href="#SOBREMI">Sobre Mi</a>
-                <a href="#PROYECTOS">Proyectos</a>
-                <a href="#CONTACTO">Contacto</a>
-            
+            <div class="nav-links">
+                <a class="nav-link" href="#SOBREMI">Sobre mí</a>
+                <a class="nav-link" href="#PROYECTOS">Proyectos</a>
+                <a class="nav-link" href="#NOTICIAS">Noticias</a>
+                <a class="nav-link" href="#CONTACTO">Contacto</a>
+            </div>
         </nav>
     </header>
     <!-- -------------------------------INICIO------------------------------>
     <section id="INICIO">
-        <section id="contenedor">
+        <div id="contenedor">
             <div id="image-box">
-                <img src="img\1706292827508.jpeg" alt="Imagen inicio">
+                <img src="img/1706292827508.jpeg" alt="Foto de perfil de Raúl Valerio Rolón">
             </div>
             <div id="inicio_texto">
-                <h1>¡Hola Mundo!</h1>
-                <p>Raul Valerio Rolon, soy <span id="inicio_span">Tecnico Universitario en
-                        Programacion</span> de la UTN</p>
+                <div class="saludo-fila">
+                    <span class="sello" aria-hidden="true">RR</span>
+                    <p class="greeting">¡Hola, mundo!</p>
+                </div>
+                <h1>Ingeniero y programador.<br>Consultor en mejora continua.</h1>
+                <p>Soy Raúl Valerio Rolón, Técnico Universitario en Programación e Ingeniero Químico, especializado en Kaizen.</p>
             </div>
-        </section>
+        </div>
     </section>
-     <!-- -------------------------------SOBRE MI ------------------------------>
+    <!-- -------------------------------SOBRE MI ------------------------------>
     <section id="SOBREMI">
-        <section id="contenedor_SM">
-            <h1>SOBRE MI</h1>
+        <div id="contenedor_SM">
+            <h1>Sobre mí</h1>
             <div id="texto_sobreMi">
                 <div id="image-box1">
-                    <img src="img\imagen-japon.jpeg" alt="Imagen inicio">
-                    <img src="img\imagen-trail.jpeg" alt="Imagen inicio">
+                    <img src="img/imagen-japon.jpeg" alt="Raúl Rolón durante su viaje de formación en Japón">
+                    <img src="img/imagen-trail.jpeg" alt="Raúl Rolón corriendo una carrera de Trail Running">
                 </div>
                 <div>
                     <p>
@@ -62,95 +68,154 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
-     <!-- -------------------------------PROYECTOS ------------------------------>
+    <!-- -------------------------------PROYECTOS ------------------------------>
     <section id="PROYECTOS">
-        <h1>PROYECTOS</h1>
-        <section id="contenedor_PY">
-            <div>
-                <ul>
-                    <li>
-                        <span> Proyectos de consola con lenguajes C++</span>
-                    </li>
-                    <li>
-                        <span> Formulario en .NET Framework</span>
-                    </li>
-                    <li>
-                        <span> Proyectos en HTML y CSS</span>
-                    </li>
-                    <li>
-                        <span> Proyectos C# WebForms - Programación 3 - UTN FRGP</span>
-                    </li>
-                    <li>
-                        <span> Proyectos web Java - Laboratorio Computación IV - UTN FRGP</span>
-                    </li>
-                    <li>
-                        <span> Python Analisis de Datos - BootcamEcom</span>
-                    </li>
-                </ul>
-                <div id="imagen_PY">
-                    <div>
-                        <img src="img\sistema-prestamos.png" alt="">
-                        <a href="https://github.com/raul-valerio/UTN.ProyectoLaboratorio.II" target="_blank">REPOSITORIO
-                            GITHUB</a>
-                    </div>
-                    <div>
-                        <img src="img\proyecto-net.png" alt="">
-                        <a href="https://github.com/raul-valerio/UTN.ProgramacionIII.Formulario.NET" target="_blank">REPOSITORIO
-                            GITHUB</a>
-                    </div>
-                    <div>
-                        <img src="img\Captura de pantalla 2024-05-02 213002.png" alt="">
-                        <a href="https://github.com/raul-valerio/porfolio.rvr" target="_blank">REPOSITORIO
-                            GITHUB</a>
-                    </div>
-                    <div>
-                        <img src="img\sangisPortada.jpg" alt="">
-                        <a href="https://github.com/raul-valerio/UTN---TPC-Equipo8_ProgIII" target="_blank">REPOSITORIO
-                            GITHUB</a>
-                    </div>
-                    <div>
-                        <img src="img\ProyectoJava.jpg" alt="">
-                        <a href="https://github.com/raul-valerio/UTN--TPINT_GRUPO_8_LAB4" target="_blank">REPOSITORIO
-                            GITHUB</a>
-                    </div>
-                    <div>
-                        <img src="img\PythonAnalisisDatos.png" alt="">
-                        <a href="https://github.com/raul-valerio/Python-Prueba-An-lisis-Datos-ECOM" target="_blank">REPOSITORIO
-                            GITHUB</a>
-                    </div>
+        <h1>Proyectos</h1>
+        <div id="contenedor_PY">
+            <div id="imagen_PY">
+                <div>
+                    <img src="img/sistema-prestamos.png" alt="Captura del sistema de gestión de préstamos en C++">
+                    <h4>Sistema de Préstamos</h4>
+                    <p>Consola en C++ para gestión de préstamos (UTN Laboratorio II).</p>
+                    <a href="https://github.com/raul-valerio/UTN.ProyectoLaboratorio.II" target="_blank" rel="noopener noreferrer">
+                        Ver repositorio
+                    </a>
                 </div>
-                <h3 id="conocimientos_h3">CONOCIMIENTOS</h3>
-                <div id="conocimientos_PY">
-                    <img src="img\c++.png" alt="">
-                    <img src="img\c.png" alt="">
-                    <img src="img\html.png" alt="">
-                    <img src="img\css.png" alt="">
-                    <img src="img\js.png" alt="">
-                    <img src="img\net.png" alt="">
-                    <img src="img\sql.png" alt="">  
-                    <img src="img\logoJava.png" alt=""> 
-                    <img src="img\logopy1.png" alt=""> 
+                <div>
+                    <img src="img/proyecto-net.png" alt="Captura del formulario desarrollado en .NET Framework">
+                    <h4>Formulario .NET</h4>
+                    <p>Aplicación de escritorio en .NET Framework (Programación III).</p>
+                    <a href="https://github.com/raul-valerio/UTN.ProgramacionIII.Formulario.NET" target="_blank" rel="noopener noreferrer">
+                        Ver repositorio
+                    </a>
                 </div>
-    
+                <div>
+                    <img src="img/ProyectoJava.jpg" alt="Captura del proyecto web en Java">
+                    <h4>Proyecto Web Java</h4>
+                    <p>Aplicación web en Java, trabajo grupal (Laboratorio IV).</p>
+                    <a href="https://github.com/raul-valerio/UTN--TPINT_GRUPO_8_LAB4" target="_blank" rel="noopener noreferrer">
+                        Ver repositorio
+                    </a>
+                </div>
+                <div>
+                    <img src="img/PythonAnalisisDatos.png" alt="Captura del proyecto de análisis de datos en Python">
+                    <h4>Análisis de Datos Python</h4>
+                    <p>Análisis exploratorio de datos con Python (Bootcamp ECOM).</p>
+                    <a href="https://github.com/raul-valerio/Python-Prueba-An-lisis-Datos-ECOM" target="_blank" rel="noopener noreferrer">
+                        Ver repositorio
+                    </a>
+                </div>
             </div>
-        </section>
+            <h3 id="conocimientos_h3">Conocimientos</h3>
+            <div id="conocimientos_PY">
+                <img src="img/c++.png" alt="Logo lenguaje C++">
+                <img src="img/c.png" alt="Logo lenguaje C">
+                <img src="img/html.png" alt="Logo HTML5">
+                <img src="img/css.png" alt="Logo CSS3">
+                <img src="img/js.png" alt="Logo JavaScript">
+                <img src="img/net.png" alt="Logo .NET">
+                <img src="img/sql.png" alt="Logo SQL">
+                <img src="img/logoJava.png" alt="Logo Java">
+                <img src="img/logopy1.png" alt="Logo Python">
+            </div>
+        </div>
     </section>
-     <!-- -------------------------------CONTACTO ------------------------------>
+    <!-- -------------------------------NOTICIAS / CONSULTORIA ------------------------------>
+    <section id="NOTICIAS">
+        <h1>Noticias y consultoría</h1>
+        <div id="contenedor_NT">
+            <div class="noticia-card">
+                <h3>Caso destacado en el Encuentro Internacional de Facilitadores</h3>
+                <p>
+                    En julio de 2023, iProfesional destacó mi trabajo junto a Kerf Maderas, pyme maderera de
+                    Misiones/Corrientes: la puntualidad en la logística pasó del 30% al 100%, eliminando los
+                    tiempos muertos. El caso obtuvo una de las 3 menciones destacadas en el Encuentro
+                    Internacional de Facilitadores/as en Tecnologías de Gestión, organizado por INTI y JICA.
+                </p>
+                <span class="destacado">Puntualidad logística: del 30% al 100%.</span>
+                <a href="https://www.iprofesional.com/management/385812-5-claves-para-aplicar-la-filosofia-japonesa-kaizen-en-argentina" target="_blank" rel="noopener noreferrer">
+                    Ver nota en iProfesional
+                </a>
+            </div>
+            <div class="noticia-card">
+                <h3>Jornada de vinculación FACAF – CIEF – INTI</h3>
+                <p>
+                    En mayo de 2025, como Coordinador del Departamento de Tecnología de Gestión del INTI NEA,
+                    presenté en esta jornada las experiencias de capacitación desarrolladas junto al CIEF
+                    (Centro Integral de Estudios Farmacéuticos de FACAF): formación de facilitadores, filosofía
+                    Kaizen, metodología 5S y manuales de procedimientos para el sector farmacéutico.
+                </p>
+                <span class="destacado">Formación de facilitadores en Kaizen y 5S.</span>
+                <a href="https://cacofar.org/cief-e-inti-ampliaran-ofertas-de-formacion-para-farmacias/" target="_blank" rel="noopener noreferrer">
+                    Ver nota completa
+                </a>
+            </div>
+            <div class="noticia-card">
+                <h3>Asesor certificado en Tecnologías de Gestión</h3>
+                <p>
+                    Figuro en el padrón oficial de Asesores en Tecnologías de Gestión de la Producción del
+                    INTI, con matrícula vigente entre 2025 y 2029 para la región NEA (Corrientes, Chaco,
+                    Misiones y Formosa), certificación que habilita mi trabajo de consultoría en Mejora
+                    Continua junto a pymes de la región.
+                </p>
+                <span class="destacado">Matrícula vigente 2025–2029, región NEA.</span>
+                <a href="https://icomunicacion.inti.gob.ar/2026/web/certificaciones/asesores-en-tecnologias-de-gestion-especializados-en-produccion/argentina/base-atg-arg-2026.pdf" target="_blank" rel="noopener noreferrer">
+                    Ver registro oficial
+                </a>
+            </div>
+            <div class="noticia-card">
+                <h3>Colaborador en la Guía TG LATAM</h3>
+                <p>
+                    En 2023 participé como colaborador en la "Guía TG LATAM: metodología de asistencia técnica
+                    en Tecnologías de Gestión a Pymes de Latinoamérica", publicación oficial del INTI elaborada
+                    junto a especialistas de Argentina, Paraguay, Uruguay, Colombia y Japón, en el marco de la
+                    Red Latinoamericana para la Productividad.
+                </p>
+                <span class="destacado">Argentina, Paraguay, Uruguay, Colombia y Japón.</span>
+                <a href="https://web2.inti.gob.ar/www/assets/uploads/files/tecnologia-de-gestion/2023/GUIA-TG-LATAM.pdf" target="_blank" rel="noopener noreferrer">
+                    Ver publicación
+                </a>
+            </div>
+            <div class="noticia-card">
+                <h3>INTI evalúa avances de asistencia técnica en Paraguay</h3>
+                <p>
+                    En julio de 2026 formé parte de la misión técnica de INTI que, junto al Ministerio de
+                    Industria y Comercio (MIC), JICA y CEPROCAL, recorrió Central, Itapúa y Alto Paraná para
+                    evaluar la implementación de las herramientas Kaizen en nueve empresas asistidas por los
+                    Centros de Desarrollo Empresarial (SBDC), según cubrió Revista PLUS (Paraguay).
+                </p>
+                <span class="destacado">San Lorenzo, Encarnación y Ciudad del Este.</span>
+                <a href="https://revistaplus.com.py/2026/07/15/inti-evalua-avances-de-asistencia-tecnica-a-mipymes-paraguayas/" target="_blank" rel="noopener noreferrer">
+                    Ver nota completa
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------CONTACTO ------------------------------>
     <section id="CONTACTO">
-        <section id="contenedor_CT">
-            <div >
+        <div id="contenedor_CT">
+            <div>
                 <form action="https://formsubmit.co/raulvaleriorolon2024@gmail.com" method="POST">
-                    <h2>CONTACTO</h2>
+                    <h2>Contacto</h2>
                     <div id="fila">
                         <div id="col">
-                            <input name="name" type="text" placeholder="Nombre">
-                            <input name="phone" type="tel" placeholder="Número de teléfono">
-                            <input name="email" type="email" placeholder="Direccion de correo">
-                            <input name="subjet" type="text" placeholder="Asunto">
+                            <label for="name" class="visually-hidden">Nombre</label>
+                            <input id="name" name="name" type="text" placeholder="Nombre" required>
+
+                            <label for="phone" class="visually-hidden">Número de teléfono</label>
+                            <input id="phone" name="phone" type="tel" placeholder="Número de teléfono">
+
+                            <label for="email" class="visually-hidden">Dirección de correo</label>
+                            <input id="email" name="email" type="email" placeholder="Direccion de correo" required>
+
+                            <label for="subjet" class="visually-hidden">Asunto</label>
+                            <input id="subjet" name="subjet" type="text" placeholder="Asunto">
+
+                            <label for="message" class="visually-hidden">Mensaje</label>
                             <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                            <button id="enviar-btn">
+                            <button id="enviar-btn" type="submit">
                                 Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                                 <span class="overlay"></span>
                             </button>
@@ -158,24 +223,23 @@
                     </div>
                 </form>
             </div>
-        </section>
+        </div>
     </section>
     <!-- -------------------------------FOOTER ------------------------------>
     <footer>
         <div id="redes">
-            <a href="https://www.linkedin.com/in/raul-valerio-rolon-58943a102/" target="_blank">
+            <a href="https://www.linkedin.com/in/raul-valerio-rolon-58943a102/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn de Raúl Rolón">
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
                 </p>
             </a>
-            <a href="https://github.com/raul-valerio" target="_blank">
+            <a href="https://github.com/raul-valerio" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Raúl Rolón">
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" aria-hidden="true"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
                 </p>
             </a>
         </div>
     </footer>
-
 
 </body>
 
